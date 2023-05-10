@@ -1,0 +1,206 @@
+
+/*Encabezado*/
+#menu{
+    display: flex;
+    background-color: rgb(80, 78, 78);
+    padding:3px 5%;
+}
+
+
+#menu img{
+    width: 100px;
+    height: 60px;
+}
+
+#menu p{
+    display: inline;
+    margin-bottom: 0;
+    color: white;   
+    font-size: 120%;
+}
+
+#menu nav{
+    padding-left: 30%;
+    display: inline-block;
+    align-items: right;
+    
+}
+
+#menu nav ul{
+    margin-top: 3vh;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#menu nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#menu nav ul li a{
+    text-decoration: none;
+}
+
+#tituloBlanco{
+    color: white;
+}
+#tituloGris{
+    color: rgb(139, 139, 139);
+}
+
+#tituloVerde{
+    color: green;
+}
+
+
+/*carrousel*/
+#textoImagen{
+    padding-top: 8rem;
+    text-align: end;
+    width: 70%;
+    padding-right: 22rem;
+}
+
+.btn-comprar {
+    background-color: green;
+}
+/*cards*/
+#subtitulo{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#subtitulo p{
+    color: gray;
+}
+#titulo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo p{
+    font-size: 40px;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card{
+    margin: 20px;
+}
+
+/*ZONA PANTALLA DIVIDIDA*/
+
+#divisionPantalla{
+    display: flex;
+    height: 100%;
+}
+
+#divIzquierda{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+#divDerecha{
+    width: 50%;
+    background-color:rgb(87, 85, 85) ;
+    margin-left: 1px;
+    padding: 20px;
+
+}
+
+#divDerecha h2{
+    color: white;
+}
+
+#divDerecha p{
+    color: white;
+}
+
+#subtitulo2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    
+    
+}
+
+#subtitulo2 p{
+    font-size: 20px;
+    margin-top: 2vh;
+}
+
+#titulo2{
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    height: 8vh;
+}
+
+#titulo2 p{
+    display: flex;
+    font-size: 50px;
+    margin-bottom: 2vh;
+}
+
+#titulo3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#titulo3 a{
+    color: black;
+}
+
+/*formulario*/
+#formulario{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#botonEnviar{
+    background-color: rgb(52, 158, 52);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #19425a;
+    justify-content: center;
+    height: 10vh;
+}
+
+/*menu*/
+#listaFooter{
+    list-style:none;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#listaFooter li{
+    display: inline;
+    text-align: center;
+    
+}
+
+#listaFooter li a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
